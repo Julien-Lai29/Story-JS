@@ -1,0 +1,47 @@
+// global
+@import './global/reset';
+@import './global/variables';
+
+// mixins
+@import './mixins/forsize';
+
+// components
+@import './components/Start';
+@import './components/Scene1';
+@import './components/Scene2';
+@import './components/Scene3';
+
+
+@font-face {
+  font-family: 'Back To The Futur';
+  font-weight: normal;
+  font-style: normal;
+  src: local('Back To The Futur'), url('../fonts/BTTF.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'The Amazing Spider-Man';
+  font-weight: normal;
+  font-style: normal;
+  src: local('The Amazing Spider-Man'), url('../fonts/TheAmazingSpider-Man.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'good times';
+  font-weight: normal;
+  font-style: normal;
+  src: local('good times'), url('../fonts/GoodTimesrg.ttf') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}

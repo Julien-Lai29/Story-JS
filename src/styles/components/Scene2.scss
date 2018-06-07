@@ -1,0 +1,29 @@
+.Scene2 {
+  &-pict {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 0.6rem;
+  margin-top: 10%;
+  }
+
+  &-pict3 {
+    padding-top: 0.6rem;
+  }
+
+  &-Container2 {
+    padding-top: 6rem;
+    margin-left: 45%;
+
+  }
+  &-Button {
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    font-family: 'good times';
+    color: #fff;
+    width: 4rem;
+    height: 2rem;
+    background-color: red;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,46 @@
+
+
+.Scene3 {
+  &-pict {
+    position: fixed;
+    width: 100%;
+    height: auto;
+  }
+
+  &-Container3 {
+    padding-top: 40rem;
+  }
+  &-dialog {
+    position: relative;
+    width: 50rem;
+    height: 9rem;
+    background-color: #fff;
+    border: 2px solid black;
+    margin: 0 auto;
+  }
+
+  &-dialogText {
+    position: relative;
+    text-align: center;
+    font-family: 'Comic sans MS';
+    font-size: 1.5rem;
+  }
+
+  &-AnswerContain {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-Answer {
+    font-family: 'Comic sans MS';
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+
+  &-Answer:hover {
+    transition: 0.2s;
+    border: 2px solid red;
+  }
+}

@@ -1,0 +1,64 @@
+body {
+  overflow: hidden;
+}
+.Start {
+  display: flex;
+  flex-direction: column;
+
+  &-background {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+
+  &-TitleContainer {
+    position: relative;
+    text-align: center;
+    padding-top: 36rem;
+  }
+
+  &-Title1 {
+    position: relative;
+    font-family: 'The Amazing Spider-Man';
+    font-size: 7.2rem;
+    color: #fff;
+  }
+
+  &-Title2 {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-family: 'Back To The Futur';
+    font-size: 5rem;
+    color: #fff;
+  }
+
+  &-Title3 {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    font-family: 'good times';
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  &-Button {
+    position: relative;
+    width: 23rem;
+    height: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.4rem;
+    color: red;
+    text-decoration: none;
+    font-family: 'good times';
+    border-radius: 4rem;
+  }
+
+  &-Button:hover {
+    transition: 1s;
+    background-color: red;
+    color: #fff;
+  }
+}

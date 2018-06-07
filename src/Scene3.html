@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/global/_reset.scss">
+  <link rel="stylesheet" href="./styles/components/Scene3.scss">
+  <title>Document</title>
+</head>
+<body>
+<section class="Scene3">
+  <audio autoplay loop>
+  <source src="./audio/rain.mp3" type="audio/mpeg">
+</audio>
+<img class="Scene3-pict" src="./img/Scene3.png" alt="">
+<div class="Scene3-Container3">
+  <div class="Scene3-dialog">
+    <p class="Scene3-dialogText">Bouffon vert : Ahaha je te cherchais justement !</p>
+    <div class="Scene3-AnswerContain">
+      <button  class="Scene3-Answer" onclick="myFunction()">1-Qui es-tu ? Et qu'est-ce que tu veux ?!</button>
+      <button  class="Scene3-Answer" onclick="myFunction()">2-"Attaquer"</button>
+    </div>
+  </div>
+</div>
+</section>
+
+<script src="index.js">
+function myFunction() {
+    document.getElementsByClassName("Scene3-dialogText").style.display = "none";
+}
+</script>
+</body>
+</html>
